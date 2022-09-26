@@ -1,6 +1,7 @@
 package Oops;
 
-class Polymorphism {
+
+class Polymorphism1 {
 	 //static keyword permits methods at class level: it is sharable across different classes
     // Method with 2 integer parameters
 	//2*4
@@ -25,4 +26,20 @@ class Polymorphism {
         return a * b;
     }
 }
+ 
+// Class 2
+// Main class
+class Polymorphismo {
+ 
+    // Main driver method
+    public static void main(String[] args)
+    {
+ 
+        // Calling method by passing
+        // input as in arguments
+        System.out.println(Helper.Multiply(2, 4));
+        System.out.println(Helper.Multiply(5.5, 6.3));
+    }
+}
+
 
