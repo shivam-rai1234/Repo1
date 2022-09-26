@@ -1,6 +1,9 @@
 package Oops;
 
-public class Truck extends Vehicles{
+public abstract  class Truck extends Vehicles{
+
+	
+	
 
 	@Override
 	String tyretype() {
@@ -30,6 +33,9 @@ public class Truck extends Vehicles{
 
 	
 
+	
+	abstract String brand();
+	abstract String trucktype();
 	
 	
 

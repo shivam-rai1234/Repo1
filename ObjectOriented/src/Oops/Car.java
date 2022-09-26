@@ -1,6 +1,7 @@
 package Oops;
-
-public class Car extends Vehicles {
+//parent 1 extends parent 2 which is v
+//parent 1 is child for vehicles(level 2)
+public abstract class Car extends Vehicles {
 
 	@Override
 	String tyretype() {
@@ -28,5 +29,7 @@ public class Car extends Vehicles {
 		return 20;
 	}
 	
-
+	abstract String segment();
+	abstract String brand();
+	
 }
