@@ -12,6 +12,7 @@ interface Checkout{
 public class Defaultmethod implements Checkout{
 	
 	
+	
 	@Override
 	public void num(int a) {
 		// TODO Auto-generated method stub

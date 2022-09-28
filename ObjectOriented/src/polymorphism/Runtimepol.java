@@ -2,6 +2,7 @@ package polymorphism;
 
 public class Runtimepol {
 	void run() {System.out.println("run time");} 
+	
 }
 class Car extends Runtimepol{
 	void run()
