@@ -29,7 +29,8 @@ class Polymorphism1 {
  
 // Class 2
 // Main class
-class Polymorphismo {
+class Polymorphismo
+{
  
     // Main driver method
     public static void main(String[] args)
@@ -37,8 +38,8 @@ class Polymorphismo {
  
         // Calling method by passing
         // input as in arguments
-        System.out.println(Helper.Multiply(2, 4));
-        System.out.println(Helper.Multiply(5.5, 6.3));
+        System.out.println(Polymorphism1.Multiply(2, 4));
+        System.out.println(Polymorphism1.Multiply(5.5, 6.3));
     }
 }
 
