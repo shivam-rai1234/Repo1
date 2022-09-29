@@ -10,14 +10,14 @@ interface Checkout{
 	}
 }
 public class Defaultmethod implements Checkout{
-	
-	
-	
 	@Override
 	public void num(int a) {
 		// TODO Auto-generated method stub
 		
 	}
+	
+	
+
 
 	
 	public static void main(String args[])
@@ -26,6 +26,9 @@ public class Defaultmethod implements Checkout{
 		d.num(4);
 		d.add(2,3);
 	}
+
+
+	
 
 	
 
