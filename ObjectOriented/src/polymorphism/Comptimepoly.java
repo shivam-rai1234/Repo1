@@ -6,8 +6,8 @@ public class Comptimepoly {
 		System.out.println("number " + num1);
 	}
 	void show(int num1,int num2)
-	{
-		System.out.println("numbers "+ num1 + num2);
+	{    int num3=num1+num2;
+		System.out.println("numbers "+ num3);
 	}
 public static void main(String[]arg)
 {
