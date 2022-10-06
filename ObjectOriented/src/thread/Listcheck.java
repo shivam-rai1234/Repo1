@@ -1,4 +1,4 @@
-package polymorphism;
+package thread;
 
 import java.util.ArrayList;
 import java.util.HashMap;

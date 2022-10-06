@@ -4,10 +4,13 @@ package Oops;
 public abstract class Car extends Vehicles {
 
 	@Override
-	String tyretype() {
+	int tyretype() {
 		String tubeless = null;
 		// TODO Auto-generated method stub
-		return tubeless;
+		
+		int n = 0;
+		if(n>6) {
+		return 564;}
 	}
 
 	@Override

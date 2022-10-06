@@ -1,4 +1,4 @@
-package polymorphism;
+package thread;
 
 interface TestInterface4
 {

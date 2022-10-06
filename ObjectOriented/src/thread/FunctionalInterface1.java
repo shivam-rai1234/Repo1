@@ -1,4 +1,4 @@
-package polymorphism;
+package thread;
 @FunctionalInterface
 
 public interface FunctionalInterface1 {
