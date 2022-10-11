@@ -1,16 +1,20 @@
-package hands_on;
+package practice;
+
+
+
+
 interface MathOperation{
 	int operation(int a ,int b);
 	
 }
 
-public class LambdaPractice {
+public class FunctionalInterfaceWithLambda {
 	public int operate(int a,int b,MathOperation mathOperation) {
 		return mathOperation.operation(a,b);
 	}
 	public static void main(String[] args)
 	{
-		LambdaPractice tester =new LambdaPractice();
+		FunctionalInterfaceWithLambda tester =new FunctionalInterfaceWithLambda();
 		MathOperation addition=(int a,int b) -> a+b;
 		MathOperation subtraction=(a,b) -> a-b;
 		MathOperation multiplication=(a,b) -> {return a*b;};
@@ -22,5 +26,4 @@ public class LambdaPractice {
 		System.out.println(tester.operate(1, 2, multiplication));
 		
 	}
-
 }

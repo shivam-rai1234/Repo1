@@ -2,5 +2,5 @@ package thread;
 @FunctionalInterface
 
 public interface FunctionalInterface1 {
-	void num(int a);
+	abstract int num(int a,int b);
    }
